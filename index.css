@@ -1,0 +1,91 @@
+body{
+    background: palegoldenrod;
+    font:20px "黑体",arial;
+    -webkit-user-select: none;
+}
+
+/*头部*/
+header{
+    display: block;
+    margin: 100px auto;
+    width: 500px;
+    text-align: center;
+    color: #8f7a66;
+    text-shadow: 2px 2px 3px rgba(0,0,0,.3);
+}
+header h1{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+#time-box{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/*游戏的主框*/
+#grid-container{
+    width: 302px;
+    height: 402px;
+    margin: 50px auto;
+    background-color: #55d769;
+    border: 5px solid #000;
+    position: relative;
+}
+#grid-container .grid{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #000;
+    position: absolute;
+}
+/*黑块的样式*/
+.block{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial;
+}
+/*游戏结束*/
+.gameover{
+    display: block;
+    margin: 0 auto;
+    width: 302px;
+    height: 402px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+}
+.gameover p{
+    font-family: Arial;
+    font-size: 50px;
+    color: white;
+}
+.gameover span{
+    font-family: Arial;
+    font-size: 50px;
+    color: white;
+    margin: 20px auto;
+}
+#restart{
+    display: block;
+    margin: 20px auto;
+    width: 180px;
+    padding: 10px;
+    background-color: #8f7a66;
+    font-family: Arial;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#restart:hover{
+    background-color: #9f8b77;
+}
+
